@@ -1,4 +1,4 @@
-#Java challenge
+# Java challenge
 
 The repository contains various small tasks of varying complexity, from simple to complex.
 
