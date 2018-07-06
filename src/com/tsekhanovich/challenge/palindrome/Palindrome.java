@@ -1,5 +1,10 @@
 package com.tsekhanovich.challenge.palindrome;
 
+/**
+ * @author Pavel Tsekhanovich 06.07.2018
+ * @version 1.0
+ */
+
 public class Palindrome {
 
     private static boolean isPalindrome(String word) {
