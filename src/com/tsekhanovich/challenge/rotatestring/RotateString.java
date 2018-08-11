@@ -2,7 +2,7 @@ package com.tsekhanovich.challenge.rotatestring;
 
 /**
  * @author Pavel Tsekhanovich 11.07.2018
- *
+ * <p>
  * We are given two strings, A and B.
  * A shift on A consists of taking string A and moving the leftmost character to the rightmost position.
  * For example, if A = 'abcde', then it will be 'bcdea' after one shift on A.
@@ -17,15 +17,15 @@ public class RotateString {
     }
 
     private static boolean rotateString(String firstString, String secondString) {
-        if (firstString.equals(secondString)){
+        if (firstString.equals(secondString)) {
             return true;
         }
         StringBuilder stringBuilder = new StringBuilder(firstString);
-        for (int i = 0; i < stringBuilder.length(); i++){
+        for (int i = 0; i < stringBuilder.length(); i++) {
             char c = stringBuilder.charAt(0);
             stringBuilder.deleteCharAt(0);
             stringBuilder.append(c);
-            if (stringBuilder.toString().equals(secondString)){
+            if (stringBuilder.toString().equals(secondString)) {
                 return true;
             }
         }

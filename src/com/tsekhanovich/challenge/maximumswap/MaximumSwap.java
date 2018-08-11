@@ -2,18 +2,18 @@ package com.tsekhanovich.challenge.maximumswap;
 
 /**
  * @author Pavel Tsekhanovich 16.07.2018
- *
+ * <p>
  * Given a non-negative integer, you could swap two digits at most once to get the maximum valued number.
  * Return the maximum valued number you could get.
- *
+ * <p>
  * Input: 2736
  * Output: 7236
  * Explanation: Swap the number 2 and the number 7.
- *
+ * <p>
  * Input: 9973
  * Output: 9973
  * Explanation: No swap.
- *
+ * <p>
  * Note:
  * The given number is in the range [0, 10^8]
  */

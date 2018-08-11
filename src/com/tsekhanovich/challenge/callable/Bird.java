@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 
 /**
  * @author Pavel Tsekhanovich 09.07.2018
- *
+ * <p>
  * - chicken implements Bird
  * - a chicken lays an egg, that will hatch into a new chicken
  * - eggs from other types of birds should hatch into a new bird of their parent type

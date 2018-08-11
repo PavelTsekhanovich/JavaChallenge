@@ -3,9 +3,9 @@ package com.tsekhanovich.challenge.reversestring;
 
 /**
  * @author Pavel Tsekhanovich 10.08.2018
- *
+ * <p>
  * Write a function that takes a string as input and returns the string reversed.
- *
+ * <p>
  * Example:
  * Given s = "hello", return "olleh".
  */
